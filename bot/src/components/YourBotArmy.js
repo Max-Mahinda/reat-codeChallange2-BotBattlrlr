@@ -7,7 +7,6 @@ function YourBotArmy({ selectedBots, dischargeBot, deleteBot }) {
 
   return (
     <div>
-      <h2>mybot Army</h2>
       <div className="bot-army-container">
         {selectedBots.map(bot => (
           <div className='army-card' key={bot.id} onClick={() => handleBotClick(bot)}>

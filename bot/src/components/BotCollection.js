@@ -27,7 +27,6 @@ function BotCollection({ botData, enlistBot }) {
 
   return (
     <div>
-      <h2>Bot Available</h2>
       <SortBar filter={filter} setFilter={setFilter} setSortBy={setSortBy} />
       <div className="bot-collection-container">
         {sortedBots.map((bot) => (

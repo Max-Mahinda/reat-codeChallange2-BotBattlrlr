@@ -1,13 +1,134 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  background-color: #f7f7f7;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1, h2{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.bot-collection-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0;
+}
+  
+.bot-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(15.33% - 9px);
+  margin-bottom: 15px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+}
+  
+.bot-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.bot-card h3 {
+  font-size: 1.2rem;
+  margin-top: 0;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.bot-card h7 {
+  font-size: 11px;
+  font-weight: bold;
+  word-wrap: break-word;
+  word-break: break-all;
+  align-items: center;
+}
+
+.bot-card .stats {
+  white-space: nowrap;
+}
+
+.bot-card p{
+  gap: 2px;
+  display: inline-block;
+  font-size: 0.9rem;
+  text-align: center;
+  background-color: #ebebeb;
+  padding: auto;
+}
+
+.bot-army-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.army-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: calc(12.33% - 9px);
+  margin-bottom: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.army-card img {
+  width: 100px;
+  height: 100px;
+}
+
+.army-card h3 {
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
+
+.army-card h6 {
+  font-size: 11px;
+  font-weight: bold;
+  word-wrap: break-word;
+  word-break: break-all;
+  align-items: center;
+}
+
+.army-card .stats {
+  white-space: nowrap;
+}
+
+.army-card p {
+  gap: 2px;
+  display: inline-block;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.army-card button {
+  padding: 5px 40px;
+  border-radius: 5px;
+  background-color: #1d1d1d;
+  color: #fff;
+  font-size: 1rem;
+}
+
+.army-card button:hover {
+  background-color: #333333;
+  color: #f1f1f1;
+  cursor: pointer;
+}
+
+.bot-card:hover,
+.army-card:hover {
+  box-shadow: 5px 6px 20px rgba(0, 0, 0, 0.)
 }
